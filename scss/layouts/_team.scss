@@ -2,34 +2,34 @@
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--team-background-color);
-  &-list {
+  &__list {
     display: flex;
     gap: 30px;
   }
-  &-item {
+  &__item {
     width: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-back-text-color);
   }
-  &-workers {
+  &__workers {
     padding: 30px 0px;
   }
-  &-worker {
+  &__worker {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
   }
-  &-profession {
+  &__profession {
     margin-top: 10px;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     color: var(--secondary-text-color);
   }
-  &-social-list {
+  &__social-list {
     display: flex;
     padding: 0px 32px;
     margin-top: 16px;
@@ -37,16 +37,16 @@
     justify-content: space-between;
     align-items: center;
   }
-  &-social-item {
+  &__social-item {
     width: 44px;
     height: 44px;
   }
-  &-social-icon {
+  &__social-icon {
     fill: currentColor;
   }
 }
 
-.team-social-link {
+.team__social-link {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -33,6 +33,12 @@
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0);
   }
+  &-icon {
+    cursor: pointer;
+  }
+  .close-btn:hover &-icon {
+    fill: var(--accent-color);
+  }
 }
 
 .close-btn {
@@ -40,6 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   right: 8px;
   top: 8px;
   width: 30px;

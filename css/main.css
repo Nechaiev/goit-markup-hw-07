@@ -285,33 +285,33 @@ img {
   padding-bottom: 94px;
   background-color: var(--team-background-color);
 }
-.team-list {
+.team__list {
   display: flex;
   gap: 30px;
 }
-.team-item {
+.team__item {
   width: calc((100% - 90px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-back-text-color);
 }
-.team-workers {
+.team__workers {
   padding: 30px 0px;
 }
-.team-worker {
+.team__worker {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
-.team-profession {
+.team__profession {
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: var(--secondary-text-color);
 }
-.team-social-list {
+.team__social-list {
   display: flex;
   padding: 0px 32px;
   margin-top: 16px;
@@ -319,15 +319,15 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.team-social-item {
+.team__social-item {
   width: 44px;
   height: 44px;
 }
-.team-social-icon {
+.team__social-icon {
   fill: currentColor;
 }
 
-.team-social-link {
+.team__social-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,7 +336,7 @@ img {
   border-radius: 50%;
   color: #afb1b8;
 }
-.team-social-link:hover, .team-social-link:focus {
+.team__social-link:hover, .team__social-link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -664,12 +664,19 @@ img {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
+.modal-icon {
+  cursor: pointer;
+}
+.close-btn:hover .modal-icon {
+  fill: var(--accent-color);
+}
 
 .close-btn {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   right: 8px;
   top: 8px;
   width: 30px;
