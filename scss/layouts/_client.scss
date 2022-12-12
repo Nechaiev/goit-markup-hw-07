@@ -1,21 +1,21 @@
-.client-section {
+.client {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.client-title {
+.client__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
-.client-list {
+.client__list {
   display: flex;
   gap: 30px;
 }
 
-.client-item {
+.client__item {
   width: calc((100% - 150px) / 6);
   height: 92px;
   &:hover,
@@ -25,7 +25,7 @@
   }
 }
 
-.client-link {
+.client__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,10 +42,10 @@
   }
 }
 
-.client-icon {
+.client__icon {
   fill: #afb1b8;
-  .client-link:hover &,
-  .client-link:focus & {
+  .client__link:hover &,
+  .client__link:focus & {
     fill: var(--accent-color);
     border-color: var(--accent-color);
   }
